@@ -1,10 +1,10 @@
 {
-  "name": "@kidsstar/setting_project",
-  "version": "1.0.1",
+  "name": "@kidsstar/project_setting",
+  "version": "1.0.0",
   "description": "Setting class for ProjectSetting.asset",
-  "homepage": "https://github.com/kidsstar/setting_project",
+  "homepage": "https://github.com/kidsstar/project_setting",
   "bugs": {
-    "url": "https://github.com/kidsstar/setting_project/issues"
+    "url": "https://github.com/kidsstar/project_setting/issues"
   },
   "scripts": {
     "postinstall": "node scripts/postinstall.js",
@@ -19,7 +19,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:kidsstar/setting_project"
+    "url": "git@github.com:kidsstar/project_setting"
   },
   "files": [
     "Assets",
