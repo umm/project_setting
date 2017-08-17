@@ -30,7 +30,7 @@ namespace UnityModule.Settings {
         /// <summary>
         /// プロジェクト設定アセットを生成する
         /// </summary>
-        [UnityEditor.MenuItem("Assets/Create/UnityModule/Setting/Create ProjectSetting")]
+        [UnityEditor.MenuItem("Assets/Create/Setting/Create ProjectSetting")]
         public static void CreateProjectSetting() {
             CreateAsset();
         }
