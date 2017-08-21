@@ -8,6 +8,24 @@ namespace UnityModule.Settings {
     public class ProjectSetting : PrioritizeSetting<ProjectSetting> {
 
         /// <summary>
+        /// プロジェクト名の実体
+        /// </summary>
+        [SerializeField]
+        private string projectName;
+
+        /// <summary>
+        /// プロジェクト名
+        /// </summary>
+        public string ProjectName {
+            get {
+                return this.projectName;
+            }
+            set {
+                this.projectName = value;
+            }
+        }
+
+        /// <summary>
         /// メインプロジェクトかどうかの実体
         /// </summary>
         [SerializeField]
