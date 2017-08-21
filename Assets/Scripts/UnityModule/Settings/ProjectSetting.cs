@@ -26,6 +26,24 @@ namespace UnityModule.Settings {
         }
 
         /// <summary>
+        /// プロジェクトコードの実体
+        /// </summary>
+        [SerializeField]
+        private string projectCode;
+
+        /// <summary>
+        /// プロジェクトコード
+        /// </summary>
+        public string ProjectCode {
+            get {
+                return this.projectCode;
+            }
+            set {
+                this.projectCode = value;
+            }
+        }
+
+        /// <summary>
         /// メインプロジェクトかどうかの実体
         /// </summary>
         [SerializeField]
