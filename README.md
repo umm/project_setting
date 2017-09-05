@@ -11,7 +11,7 @@
 # Install
 
 ```shell
-$ npm install @kidsstar/setting_project
+$ npm install github:kidsstar/setting_project.git
 ```
 
 # Usage
