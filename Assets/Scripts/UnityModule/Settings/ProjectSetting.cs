@@ -69,6 +69,10 @@ namespace UnityModule.Settings {
         [UnityEditor.MenuItem("Assets/Create/Setting/ProjectSetting")]
         public static void CreateProjectSetting() {
             CreateAsset();
+            // デフォルト値を設定する
+            Instance.ProjectName = Application.productName;
+            Instance.ProjectCode = Application.productName;
+            UnityEditor.EditorUtility.SetDirty(Instance);
         }
 
 #endif
