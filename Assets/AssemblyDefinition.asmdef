@@ -1,6 +1,8 @@
 {
     "name": "umm@project_setting",
-    "references": [],
+    "references": [
+        "umm@setting_core"
+    ],
     "optionalUnityReferences": [],
     "includePlatforms": [],
     "excludePlatforms": [],
