@@ -29,7 +29,7 @@
   ],
   "dependencies": {
     "@umm/scripts": "umm-projects/scripts#^1.0.0",
-    "@umm/setting_core": "^1.0.4"
+    "@umm/setting_core": "umm-projects/setting_core#^1.0.0"
   },
   "devDependencies": {}
 }
