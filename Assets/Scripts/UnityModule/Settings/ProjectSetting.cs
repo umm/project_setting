@@ -5,13 +5,13 @@ namespace UnityModule.Settings {
     /// <summary>
     /// プロジェクトの設定を司ります
     /// </summary>
-    public class ProjectSetting : PrioritizeSetting<ProjectSetting> {
+    public class ProjectSetting : Setting<ProjectSetting> {
 
         /// <summary>
         /// プロジェクト名の実体
         /// </summary>
         [SerializeField]
-        private string projectName;
+        private string projectName = Application.productName;
 
         /// <summary>
         /// プロジェクト名
@@ -29,7 +29,7 @@ namespace UnityModule.Settings {
         /// プロジェクトコードの実体
         /// </summary>
         [SerializeField]
-        private string projectCode;
+        private string projectCode = Application.productName;
 
         /// <summary>
         /// プロジェクトコード
@@ -68,11 +68,7 @@ namespace UnityModule.Settings {
         /// </summary>
         [UnityEditor.MenuItem("Assets/Create/Setting/ProjectSetting")]
         public static void CreateProjectSetting() {
-            CreateAsset();
-            // デフォルト値を設定する
-            Instance.ProjectName = Application.productName;
-            Instance.ProjectCode = Application.productName;
-            UnityEditor.EditorUtility.SetDirty(Instance);
+            CreateAsset(true);
         }
 
 #endif
