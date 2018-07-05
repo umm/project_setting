@@ -68,7 +68,7 @@ namespace UnityModule.Settings {
         /// </summary>
         [UnityEditor.MenuItem("Assets/Create/Setting/ProjectSetting")]
         public static void CreateProjectSetting() {
-            CreateAsset(true);
+            CreateAsset();
         }
 
 #endif
