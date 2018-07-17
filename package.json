@@ -2,9 +2,9 @@
   "name": "@umm/project_setting",
   "version": "1.2.4",
   "description": "Setting class for ProjectSetting.asset",
-  "homepage": "https://github.com/umm-projects/project_setting",
+  "homepage": "https://github.com/umm/project_setting",
   "bugs": {
-    "url": "https://github.com/umm-projects/project_setting/issues"
+    "url": "https://github.com/umm/project_setting/issues"
   },
   "scripts": {
     "umm:init": "umm-init",
@@ -22,15 +22,15 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:umm-projects/project_setting"
+    "url": "git@github.com:umm/project_setting"
   },
   "files": [
     "Assets",
     "scripts"
   ],
   "dependencies": {
-    "@umm/scripts": "umm-projects/scripts#^1.0.0",
-    "@umm/setting_core": "umm-projects/setting_core#^2.0.0"
+    "@umm/scripts": "umm/scripts#^1.0.0",
+    "@umm/setting_core": "umm/setting_core#^2.0.0"
   },
   "devDependencies": {}
 }
