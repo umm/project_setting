@@ -11,13 +11,17 @@ namespace UnityModule.Settings {
         /// プロジェクト名の実体
         /// </summary>
         [SerializeField]
-        private string projectName = Application.productName;
+        private string projectName;
 
         /// <summary>
         /// プロジェクト名
         /// </summary>
         public string ProjectName {
             get {
+                if (projectName == default)
+                {
+                    projectName = Application.productName;
+                }
                 return this.projectName;
             }
             set {
@@ -29,13 +33,17 @@ namespace UnityModule.Settings {
         /// プロジェクトコードの実体
         /// </summary>
         [SerializeField]
-        private string projectCode = Application.productName;
+        private string projectCode;
 
         /// <summary>
         /// プロジェクトコード
         /// </summary>
         public string ProjectCode {
             get {
+                if (projectCode == default)
+                {
+                    projectCode = Application.productName;
+                }
                 return this.projectCode;
             }
             set {
